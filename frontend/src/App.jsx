@@ -1,5 +1,7 @@
 import React from "react";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Category from "./components/Category";
 // import homepage from "./components/homepage";
 // import Hero from "./components/hero";
 // import Toppanel from "./components/toppanel";
@@ -11,6 +13,8 @@ function App() {
   return (
     <>
       <Navbar/>
+      <Hero/>
+      <Category/>
       {/* <Hero />
       <homepage />
       <Toppanel />
