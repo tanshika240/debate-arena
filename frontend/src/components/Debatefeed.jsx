@@ -4,8 +4,10 @@ import profile from "./pfp2.jpg";
 
 function Debatefeed() {
   return (
-    <section className="debatefeed bg-linear-to-b from-[#F3EEDD] to-[#F5D9C8] 
-    h-screen w-screen">
+    <section
+      className="debatefeed bg-linear-to-b from-[#F3EEDD] to-[#F5D9C8] 
+    h-screen w-screen"
+    >
       <div>
         <div className="heading flex justify-between items-center py-16 px-8">
           <h2
@@ -49,7 +51,7 @@ function Debatefeed() {
                 </div>
               </div>
               <progress
-                className="w-full h-3 rounded-full overflow-hidden [&::-webkit-progress-bar]:bg-gray-200 [&::-webkit-progress-value]:bg-green-500 [&::-moz-progress-bar]:bg-green-500"
+                className="w-full h-3 overflow-hidden [&::-webkit-progress-bar]:bg-[#D85A30] [&::-webkit-progress-value]:bg-green-500 [&::-moz-progress-bar]:bg-green-500"
                 value={60}
                 max={100}
               />
@@ -97,7 +99,7 @@ function Debatefeed() {
                 </div>
               </div>
               <progress
-                className="w-full h-3 rounded-full overflow-hidden [&::-webkit-progress-bar]:bg-gray-200 [&::-webkit-progress-value]:bg-green-500 [&::-moz-progress-bar]:bg-green-500"
+                className="w-full h-3 overflow-hidden [&::-webkit-progress-bar]:bg-[#D85A30] [&::-webkit-progress-value]:bg-green-500 [&::-moz-progress-bar]:bg-green-500"
                 value={60}
                 max={100}
               />
