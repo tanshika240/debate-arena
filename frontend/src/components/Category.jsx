@@ -1,7 +1,7 @@
 import React from "react";
 function Category() {
   return (
-    <section className="w-full bg-linear-to-b from-[#F3EEDD] to-[#F5D9C8] border-y border-gray-300">
+    <section className="w-screen bg-linear-to-b from-[#F3EEDD] to-[#F5D9C8] border-y border-gray-300">
       <div className="flex justify-center gap-3 px-4 py-1.5">
         <button
           className="bg-black text-gray-200 text-sm font-semibold rounded-md px-4 py-2"
