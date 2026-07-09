@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Category from "./components/Category";
 import Debatefeed from "./components/Debatefeed";
+import AiJudgeSection from "./components/AiJudgeSection";
 // import homepage from "./components/homepage";
 // import Hero from "./components/hero";
 // import Toppanel from "./components/toppanel";
@@ -17,6 +18,7 @@ function App() {
       <Hero/>
       <Category/>
       <Debatefeed/>
+      <AiJudgeSection/>
       {/* <Hero />
       <homepage />
       <Toppanel />

@@ -10,8 +10,7 @@ function Debatefeed() {
   const AgainstPercent = 100 - ForPercent;
   return (
     <section
-      className="debatefeed bg-linear-to-b from-[#F3EEDD] to-[#F5D9C8] 
-    h-screen w-screen"
+      className="debatefeed bg-linear-to-b from-[#F3EEDD] to-[#F5D9C8] min-h-[80vh] w-full"
     >
       <div>
         <div className="heading flex justify-between items-center py-16 px-12">
@@ -29,7 +28,7 @@ function Debatefeed() {
             View All
           </button>
         </div>
-        <div className="w-screen px-10 py-6 grid grid-cols-1 md:grid-cols-2 gap-6 ">
+        <div className="w-full px-10 py-6 grid grid-cols-1 md:grid-cols-2 gap-6 ">
           <div className="w-full flex flex-col h-full justify-between px-12 py-12 bg-[#FDF6EC] border border-black/10 rounded-lg shadow-sm">
             <div className="flex justify-between items-center mb-12">
               <button className="bg-green-900/10 text-green-900 font-semibold text-4xl px-6 py-2 ">
@@ -90,7 +89,7 @@ function Debatefeed() {
               </button>
             </div>
           </div>
-          <div className="w-full h-full flex flex-col justify-between px-12 py-12 bg-[#FDF6EC] border border-black/10 rounded-lg shadow-sm">
+          <div className="w-full flex flex-col justify-between px-12 py-12 bg-[#FDF6EC] border border-black/10 rounded-lg shadow-sm">
             <div className="flex justify-between items-center mb-12">
               <button className="bg-green-900/10 text-green-900 font-semibold text-4xl px-6 py-2">
                 SOCIETY
