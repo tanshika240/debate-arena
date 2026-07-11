@@ -5,6 +5,7 @@ import Category from "./components/Category";
 import Debatefeed from "./components/Debatefeed";
 import AiJudgeSection from "./components/AiJudgeSection";
 import HallOffame from "./components/HallOffame";
+import Newdebate from "./components/Newdebate";
 // import homepage from "./components/homepage";
 // import Hero from "./components/hero";
 // import Toppanel from "./components/toppanel";
@@ -21,6 +22,7 @@ function App() {
       <Debatefeed/>
       <AiJudgeSection/>
       <HallOffame/>
+      <Newdebate/>
       {/* <Hero />
       <homepage />
       <Toppanel />
